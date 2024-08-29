@@ -1,7 +1,9 @@
 import React from "react";
+import'./style/registro.css'
+import { SectionLogin } from "../organisms/sectionLogin";
  function Registro(){
     return(
-        <h1>Registro</h1>
+        <SectionLogin/>
     )
     
 }
