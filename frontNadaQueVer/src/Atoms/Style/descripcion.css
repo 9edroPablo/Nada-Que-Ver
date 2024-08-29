@@ -1,0 +1,20 @@
+.Descripcion{
+    display: flex;
+    flex-direction: row;
+}
+
+.Descripcion p {
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    margin: 25px;
+}
+.Descripcion img{
+    margin: 20px;
+    margin-left: 50px;
+    max-height: 250px;
+}
+.text-container p {
+    margin-bottom: px; /* Espacio entre párrafos */
+    line-height: 1.2;    /* Altura de línea para mejor legibilidad */
+  }

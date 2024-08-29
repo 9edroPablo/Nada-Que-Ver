@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    
+    
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+div#root{
+    min-height: 100vh;
+}
+

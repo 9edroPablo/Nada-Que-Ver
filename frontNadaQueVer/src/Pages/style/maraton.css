@@ -1,0 +1,12 @@
+.SectionMaraton{
+    height: 100vh;
+    background-color: #0C0C0C
+}
+.MaratonTitle{
+width: 100%;
+display: flex;
+justify-content: center;
+font-size: 60px;
+color: white;
+margin-top: 20px;
+}

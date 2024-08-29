@@ -1,0 +1,43 @@
+/* src/components/Style/poster.css */
+.poster-container {
+  position: relative;
+  display: inline-block;
+  
+   /* Ancho del contenedor del póster */
+}
+
+.poster-container img {
+  width: 100%;
+  height: auto; /* Mantiene la relación de aspecto del póster */
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+ 
+}
+
+.poster-container:hover .info {
+  opacity: 1; /* Muestra la información al pasar el mouse */
+}
+
+/* Asegura que el tamaño del texto sea responsivo */
+@media (max-width: 500px) {
+  .info {
+    font-size: 1em; /* Ajusta el tamaño del texto para pantallas pequeñas */
+  }
+}

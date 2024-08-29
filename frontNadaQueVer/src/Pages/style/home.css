@@ -1,0 +1,34 @@
+.SectionHome{
+width: 100%;
+height: auto;
+background-color: black;
+
+}
+
+.NQVHome{
+    width: 100%;
+    margin: 0%;
+    
+}
+
+.SectionCategorias{
+    width: 100%;
+    
+    
+}
+.ContainerSecundario{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.SectionCategoriasPA{
+    width: 50%;
+    height: auto;
+}
+.SectionCategoriasMaraton{
+    width: 50%;
+}
+li{height: 500px;}
+
+.SectionCategorias li{height: 500px;}
+

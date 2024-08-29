@@ -1,0 +1,31 @@
+.categoria-container {
+    position: relative;
+    width: 100%;
+    height: 500px; /* Alinea el height con .SectionCategorias */
+    overflow: hidden; /* Oculta el desbordamiento para recortar la imagen */
+}
+
+.categoria-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7); /* Sombra que cubre toda la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white; /* Cambia el color del texto según lo necesites */
+    font-size: 10vh; /* Ajusta el tamaño de la fuente según lo desees */
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+/* src/components/Style/BoxPelisM.css */
+.poster-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.small-poster img {
+    width: 120px;
+    height: 218.75px;
+    object-fit: cover;
+}
+
+.small-posteri{
+    font-size: 18px; 
+    width: 120px;
+}
